@@ -80,6 +80,14 @@ function resetClick(){
     barrier = document.getElementById("baseBarrier").value;
     divideStats();
     updateVisual();
+    VisualizeDmg('Head', headButton);
+    VisualizeDmg('Front', forntButton);
+    VisualizeDmg('Back', backButton);
+    VisualizeDmg('LeftHand', lHandButton);
+    VisualizeDmg('RightHand', rHandButton);
+    VisualizeDmg('LeftLeg', lLegButton);
+    VisualizeDmg('RightLeg', rLegButton);
+
 } 
 
 function addDmg() {
