@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Default Page Title</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id = "Visualizer">
+        <button id = "HeadB" class="button_body"/>
+        <button id = "FrontB" class="button_body"/>
+        <button id = "BackB" class="button_body"/>
+        <button id = "LArmB" class="button_body"/>
+        <button id = "RArmB" class="button_body"/>
+        <button id = "LLegB" class="button_body"/>
+        <button id = "RLegB" class="button_body"/>
+    </div>
+
+    <div id = "Controller">
+      <div id="damageField">
+        <h1 id="dmgText" class="Text">Damage</h1>
+        <button id="1" class="dmg">1</button>
+        <button id="5" class="dmg">5</button>
+        <button id="10" class="dmg">10</button>
+        <button id="25" class="dmg">25</button>
+        <button id="50" class="dmg">50</button>
+        <button id="100" class="dmg">100</button>
+        <button id="150" class="dmg">150</button>
+        <button id="200" class="dmg">200</button>
+        <button id="500" class="dmg">500</button>
+        <h2 id="dmgSum" class="Text">0</h2>
+      </div>
+      <div id="ressistField">
+        <h1 id="ressText" class="Text">Ressists[%]</h1>
+        <button id="5" class="ress">5</button>
+        <button id="10" class="ress">10</button>
+        <button id="20" class="ress">20</button>
+        <button id="30" class="ress">30</button>
+        <button id="50" class="ress">50</button>
+        <button id="60" class="ress">60</button>
+        <button id="70" class="ress">70</button>
+        <button id="80" class="ress">80</button>
+        <button id="80" class="ress">100</button>
+        <h2 id="ressSum" class="Text">0</h2>
+      </div>
+
+      <div id="Stats">
+        <h1 id="barierText" class="Text">Barrier</h1>
+        <input type="number" class="inputNum" value = "0" id="baseBarrier"/> 
+        <h1 id="armorText" class="Text">Armor</h1>
+        <input type="number" class="inputNum" value = "0" id="baseArmor"/>
+      </div>
+      <button id="resetAll" class="controlls">Resset all</button>
+      <button id="resetBarrier" class="controlls">Resset barrier</button>
+      <button id="resetArmor" class="controlls">Resset armor</button>
+    </div>
+
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
